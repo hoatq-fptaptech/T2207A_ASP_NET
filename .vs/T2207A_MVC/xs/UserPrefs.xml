@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{AF18437C-9F1A-4717-BAA1-2C3E269FBDA4}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.T2207A__MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="T2207A_MVC/Views/Web/Xyz.cshtml">
+    <Files>
+      <File FileName="T2207A_MVC/Program.cs" Line="25" Column="46" />
+      <File FileName="T2207A_MVC/Controllers/HomeController.cs" Line="26" Column="32" />
+      <File FileName="T2207A_MVC/Views/Home/Demo.cshtml" Line="6" Column="17" />
+      <File FileName="T2207A_MVC/Views/_ViewStart.cshtml" Line="2" Column="24" />
+      <File FileName="T2207A_MVC/Views/Shared/_Layout.cshtml" Line="33" Column="28" />
+      <File FileName="T2207A_MVC/Views/Shared/_AdminLayout.cshtml" Line="16" Column="1" />
+      <File FileName="T2207A_MVC/Controllers/WebController.cs" Line="10" Column="2" />
+      <File FileName="T2207A_MVC/Views/Web/Index.cshtml" Line="5" Column="1" />
+      <File FileName="T2207A_MVC/Views/Web/Xyz.cshtml" Line="1" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="T2207A_MVC" expanded="True">
+            <Node name="T2207A_MVC" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="Web" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
