@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // connect db
-var connectionString = "Data Source=localhost,1433;Database=T2207A;User Id=sa;Password=sa123456;TrustServerCertificate=true";
+var connectionString = builder.Configuration.GetConnectionString("WEB");
 builder.Services.AddDbContext<T2207A_MVC.Entities.DataContext>(
         options=> options.UseSqlServer(connectionString)
     );

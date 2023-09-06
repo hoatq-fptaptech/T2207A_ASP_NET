@@ -1,0 +1,28 @@
+﻿@model List<T2207A_MVC.Entities.Category>
+@{
+//var xyz = ViewData["categories"];
+//var abc = ViewBag.categories;
+}
+<h1>Category Page</h1>
+<a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+    Create new Category
+</a>
+<div class="col-6">
+    <table class="table">
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th></th>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td></td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

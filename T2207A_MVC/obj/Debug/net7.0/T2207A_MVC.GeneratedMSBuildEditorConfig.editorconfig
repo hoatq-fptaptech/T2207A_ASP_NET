@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/quanghoatrinh/Documents/Aptech/SEM3/T2207A/T2207A_MVC/T2207A_MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/quanghoatrinh/Documents/Aptech/SEM3/T2207A/T2207A_MVC/T2207A_MVC/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/quanghoatrinh/Documents/Aptech/SEM3/T2207A/T2207A_MVC/T2207A_MVC/Views/Home/Demo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
