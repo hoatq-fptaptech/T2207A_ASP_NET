@@ -20,7 +20,13 @@
             <tr>
                 <td>@item.id</td>
                 <td>@item.name</td>
-                <td></td>
+                <td>
+                    <a href="@Url.ActionLink("Edit","Category", new {id=item.id })"
+                       class="btn btn-warning">Edit</a>
+                    <a href="@Url.ActionLink("Delete","Category", new {id=item.id })"
+                      onclick="return confirm('Bạn muốn xoá danh mục @item.name')"
+                       class="btn btn-danger">Delete</a>
+                </td>
             </tr>
             }
         </tbody>

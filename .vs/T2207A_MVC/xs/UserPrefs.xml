@@ -1,18 +1,26 @@
 ﻿<Properties StartupConfiguration="{AF18437C-9F1A-4717-BAA1-2C3E269FBDA4}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.T2207A__MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="T2207A_MVC/Views/Web/Xyz.cshtml">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="T2207A_MVC/Views/Category/Index.cshtml">
     <Files>
-      <File FileName="T2207A_MVC/Program.cs" Line="25" Column="46" />
-      <File FileName="T2207A_MVC/Controllers/HomeController.cs" Line="26" Column="32" />
-      <File FileName="T2207A_MVC/Views/Home/Demo.cshtml" Line="6" Column="17" />
-      <File FileName="T2207A_MVC/Views/_ViewStart.cshtml" Line="2" Column="24" />
-      <File FileName="T2207A_MVC/Views/Shared/_Layout.cshtml" Line="33" Column="28" />
-      <File FileName="T2207A_MVC/Views/Shared/_AdminLayout.cshtml" Line="16" Column="1" />
-      <File FileName="T2207A_MVC/Controllers/WebController.cs" Line="10" Column="2" />
-      <File FileName="T2207A_MVC/Views/Web/Index.cshtml" Line="5" Column="1" />
-      <File FileName="T2207A_MVC/Views/Web/Xyz.cshtml" Line="1" Column="17" />
+      <File FileName="T2207A_MVC/Program.cs" Line="13" Column="1" />
+      <File FileName="T2207A_MVC/Controllers/HomeController.cs" />
+      <File FileName="T2207A_MVC/Views/Home/Demo.cshtml" />
+      <File FileName="T2207A_MVC/Views/_ViewStart.cshtml" />
+      <File FileName="T2207A_MVC/Views/Shared/_Layout.cshtml" />
+      <File FileName="T2207A_MVC/Views/Shared/_AdminLayout.cshtml" />
+      <File FileName="T2207A_MVC/Controllers/WebController.cs" />
+      <File FileName="T2207A_MVC/Views/Web/Index.cshtml" />
+      <File FileName="T2207A_MVC/Entities/Product.cs" Line="26" Column="3" />
+      <File FileName="T2207A_MVC/Entities/DataContext.cs" Line="13" Column="1" />
+      <File FileName="T2207A_MVC/Entities/Category.cs" Line="14" Column="1" />
+      <File FileName="T2207A_MVC/appsettings.json" Line="10" Column="9" />
+      <File FileName="T2207A_MVC/Controllers/CategoryController.cs" Line="26" Column="35" />
+      <File FileName="T2207A_MVC/Views/Category/Index.cshtml" Line="15" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +28,10 @@
           <Node name="T2207A_MVC" expanded="True">
             <Node name="T2207A_MVC" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Category" expanded="True" />
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
                 <Node name="Web" expanded="True" />
@@ -31,8 +42,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
