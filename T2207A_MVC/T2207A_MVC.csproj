@@ -12,11 +12,15 @@
     <None Remove="Views\Web\" />
     <None Remove="Entities\" />
     <None Remove="Views\Category\" />
+    <None Remove="Views\Product\" />
+    <None Remove="Models\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Web\" />
     <Folder Include="Entities\" />
     <Folder Include="Views\Category\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Models\Product\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
