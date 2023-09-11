@@ -24,7 +24,14 @@ namespace T2207A_MVC.Controllers
         public IActionResult Index()
         {
             List<Product> products = _context.Products
-                .Include(p=>p.category).ToList();
+                //.Where(p=>p.name.Equals("samsung"))
+                .Where(p=>p.name.Contains("samsung") || p.name.Contains("iphone"))
+                .Take(10)
+                .Skip(10)
+                .Include(p=>p.category)
+                .OrderBy(p=>p.name)// asc
+                //.OrderByDescending(p=>p.name) // desc
+                .ToList();
             return View(products);
         }
 
