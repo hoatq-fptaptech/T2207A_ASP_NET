@@ -1,51 +1,39 @@
-﻿<Properties StartupConfiguration="{AF18437C-9F1A-4717-BAA1-2C3E269FBDA4}|https">
-  <MonoDevelop.Ide.ItemProperties.T2207A__MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="T2207A_MVC/Controllers/CategoryController.cs">
+﻿<Properties StartupConfiguration="{3B454545-ADEB-4A5B-8C0D-394573A0AEF3}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/quanghoatrinh/Documents/Aptech/SEM3/T2207A/T2207A_MVC/T2207A_API/Controllers/CategoryController.cs" relfile="T2207A_API/Controllers/CategoryController.cs" line="74" column="1" />
+      <Breakpoint file="/Users/quanghoatrinh/Documents/Aptech/SEM3/T2207A/T2207A_MVC/T2207A_API/Controllers/CategoryController.cs" relfile="T2207A_API/Controllers/CategoryController.cs" line="72" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="T2207A_API/Program.cs">
     <Files>
-      <File FileName="T2207A_MVC/Program.cs" />
-      <File FileName="T2207A_MVC/Controllers/HomeController.cs" />
-      <File FileName="T2207A_MVC/Views/Home/Demo.cshtml" />
-      <File FileName="T2207A_MVC/Views/_ViewStart.cshtml" />
-      <File FileName="T2207A_MVC/Views/Shared/_Layout.cshtml" Line="29" Column="124" />
-      <File FileName="T2207A_MVC/Views/Shared/_AdminLayout.cshtml" />
-      <File FileName="T2207A_MVC/Controllers/WebController.cs" />
-      <File FileName="T2207A_MVC/Views/Web/Index.cshtml" />
-      <File FileName="T2207A_MVC/Entities/Product.cs" Line="29" Column="1" />
-      <File FileName="T2207A_MVC/Entities/DataContext.cs" Line="15" Column="17" />
-      <File FileName="T2207A_MVC/Entities/Category.cs" Line="3" Column="51" />
-      <File FileName="T2207A_MVC/appsettings.json" />
-      <File FileName="T2207A_MVC/Controllers/CategoryController.cs" Line="86" Column="1" />
-      <File FileName="T2207A_MVC/Views/Category/Index.cshtml" Line="28" Column="24" />
-      <File FileName="T2207A_MVC/Views/Category/Create.cshtml" Line="23" Column="1" />
-      <File FileName="T2207A_MVC/Models/CategoryViewModel.cs" Line="7" Column="3" />
-      <File FileName="T2207A_MVC/Models/CategoryEditModel.cs" Line="5" Column="32" />
-      <File FileName="T2207A_MVC/Views/Category/Edit.cshtml" Line="21" Column="33" />
+      <File FileName="T2207A_API/appsettings.json" Line="12" Column="2" />
+      <File FileName="T2207A_API/Entities/T2207aApiContext.cs" Line="33" Column="1" />
+      <File FileName="T2207A_API/Controllers/CategoryController.cs" Line="70" Column="17" />
+      <File FileName="T2207A_API/Models/Category/CreateCategory.cs" Line="10" Column="35" />
+      <File FileName="T2207A_API/Program.cs" Line="35" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="T2207A_MVC" expanded="True">
-            <Node name="T2207A_MVC" expanded="True">
+            <Node name="T2207A_API" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Entities" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
+              <Node name="DTOs" expanded="True" />
+              <Node name="Models" expanded="True">
                 <Node name="Category" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
               </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.T2207A__MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.T2207A__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
 </Properties>

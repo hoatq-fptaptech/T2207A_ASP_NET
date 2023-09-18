@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/Users/quanghoatrinh/Documents/Aptech/SEM3/T2207A/T2207A_MVC/T2207A_MVC/wwwroot/uploads/a61bd3be-9f29-4ba8-86e3-d37377028af3.jpeg",
+      "PackagePath": "staticwebassets/uploads/a61bd3be-9f29-4ba8-86e3-d37377028af3.jpeg"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.T2207A_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

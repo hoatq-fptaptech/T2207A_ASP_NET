@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DfvDTcHQJSxFY+Ak89DZllgTdpgz9K+qmBqUdlh34IQ=",
+  "Hash": "AS/bWyWD1eZ454Gvkbcsg0lwmqFFDkIAOvx9GHUY9RA=",
   "Source": "T2207A_MVC",
   "BasePath": "_content/T2207A_MVC",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/quanghoatrinh/Documents/Aptech/SEM3/T2207A/T2207A_MVC/T2207A_MVC/wwwroot/uploads/a61bd3be-9f29-4ba8-86e3-d37377028af3.jpeg",
+      "SourceId": "T2207A_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/quanghoatrinh/Documents/Aptech/SEM3/T2207A/T2207A_MVC/T2207A_MVC/wwwroot/",
+      "BasePath": "_content/T2207A_MVC",
+      "RelativePath": "uploads/a61bd3be-9f29-4ba8-86e3-d37377028af3.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/a61bd3be-9f29-4ba8-86e3-d37377028af3.jpeg"
     }
   ]
 }
