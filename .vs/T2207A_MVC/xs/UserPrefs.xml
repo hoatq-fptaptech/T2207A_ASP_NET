@@ -1,25 +1,31 @@
 ﻿<Properties StartupConfiguration="{3B454545-ADEB-4A5B-8C0D-394573A0AEF3}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.T2207A__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.T2207A__MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.T2207A__MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="T2207A_API/Controllers/CategoryController.cs">
     <Files>
       <File FileName="T2207A_API/appsettings.json" />
       <File FileName="T2207A_API/Entities/T2207aApiContext.cs" />
-      <File FileName="T2207A_API/Controllers/CategoryController.cs" Line="67" Column="32" />
-      <File FileName="T2207A_API/Program.cs" Line="33" Column="1" />
-      <File FileName="T2207A_API/Models/Category/CreateCategory.cs" Line="13" Column="1" />
-      <File FileName="T2207A_API/Properties/launchSettings.json" Line="25" Column="70" />
+      <File FileName="T2207A_API/Controllers/CategoryController.cs" Line="42" Column="3" />
+      <File FileName="T2207A_API/Program.cs" Line="14" Column="8" />
+      <File FileName="T2207A_API/Models/Category/CreateCategory.cs" />
+      <File FileName="T2207A_API/Models/Category/EditCategory.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="T2207A_MVC" expanded="True">
             <Node name="T2207A_API" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CategoryController.cs" selected="True" />
+              </Node>
               <Node name="DTOs" expanded="True" />
+              <Node name="Entities" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="Category" expanded="True" />
               </Node>
@@ -30,7 +36,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

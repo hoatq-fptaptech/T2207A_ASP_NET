@@ -1,6 +1,19 @@
 ﻿using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
+// Add CORS policy access
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        //policy.WithOrigins("https://24h.com.vn");
+        //policy.WithOrigins("https://vnexpress.net");
+        policy.AllowAnyOrigin();// allow all
+        policy.AllowAnyMethod();
+        policy.AllowAnyHeader();
+       
+    });
+});
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -23,6 +36,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 
