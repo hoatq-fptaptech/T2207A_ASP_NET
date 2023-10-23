@@ -42,11 +42,12 @@ namespace T2207A_API.Controllers
                 new Claim(ClaimTypes.Name,user.Fullname),
                 new Claim(ClaimTypes.Role,"user")
             };
+            var lifeTime = Convert.ToInt32(_config["JWT:Lifetime"]);
             var token = new JwtSecurityToken(
                     _config["JWT:Issuer"],
                     _config["JWT:Audience"],
                     payload,
-                    expires: DateTime.Now.AddMinutes(60),
+                    expires: DateTime.Now.AddMinutes(lifeTime),
                     signingCredentials: signatureKey
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);
