@@ -1,28 +1,40 @@
 ﻿<Properties StartupConfiguration="{3B454545-ADEB-4A5B-8C0D-394573A0AEF3}|https">
-  <MonoDevelop.Ide.ItemProperties.T2207A__MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.T2207A__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="T2207A_API/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="T2207A_MVC/Controllers/UploadController.cs">
     <Files>
-      <File FileName="T2207A_API/appsettings.json" Line="10" Column="22" />
       <File FileName="T2207A_API/Entities/T2207aApiContext.cs" />
-      <File FileName="T2207A_API/Controllers/CategoryController.cs" />
-      <File FileName="T2207A_API/Program.cs" />
-      <File FileName="T2207A_API/Models/Category/CreateCategory.cs" />
-      <File FileName="T2207A_API/Models/Category/EditCategory.cs" />
-      <File FileName="T2207A_API/Controllers/ProductController.cs" Line="90" Column="44" />
-      <File FileName="T2207A_API/DTOs/ProductDTO.cs" />
+      <File FileName="T2207A_API/Entities/User.cs" Line="25" Column="2" />
+      <File FileName="T2207A_API/Models/User/UserRegister.cs" Line="14" Column="3" />
+      <File FileName="T2207A_API/Controllers/AuthController.cs" Line="47" Column="43" />
+      <File FileName="T2207A_API/DTOs/UserDTO.cs" Line="6" Column="29" />
+      <File FileName="T2207A_API/Properties/launchSettings.json" Line="23" Column="32" />
+      <File FileName="T2207A_API/appsettings.json" Line="16" Column="14" />
+      <File FileName="T2207A_MVC/Controllers/UploadController.cs" Line="27" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="T2207A_MVC" expanded="True">
-            <Node name="T2207A_API" expanded="True" selected="True">
+            <Node name="T2207A_API" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="DTOs" expanded="True" />
               <Node name="Entities" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="Category" expanded="True" />
+                <Node name="User" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="T2207A_MVC" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="UploadController.cs" selected="True" />
               </Node>
               <Node name="Properties" expanded="True" />
             </Node>
@@ -31,9 +43,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.T2207A__MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
