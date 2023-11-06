@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using T2207A_API.Entities;
 using T2207A_API.DTOs;
 using Microsoft.EntityFrameworkCore;
+
+using Microsoft.AspNetCore.Authorization;
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace T2207A_API.Controllers
@@ -22,6 +24,7 @@ namespace T2207A_API.Controllers
 
         // GET: /<controller>/
         [HttpGet]
+        [Authorize(Policy = "Age18Plus")]
         public IActionResult Index()
         {
             var products = _context.Products.Include(p=>p.Category).ToList();

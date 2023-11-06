@@ -21,5 +21,7 @@ public partial class User
 
     public string? City { get; set; }
 
+    public int? Age { get; set; }
+
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }
